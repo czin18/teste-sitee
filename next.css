@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./IMG-20250731-WA0039.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.conteiner {
+  width: 420px;
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  color: #fff;
+  padding: 30px 40px;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.conteiner h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.inputbox {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.inputbox input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 25px 45px 20px 20px;
+}
+
+.inputbox input::placeholder {
+  color: #bebdbd;
+}
+
+.inputbox i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.relembre {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #fff;
+  margin: 10px 0 20px 0;
+  width: 100%;
+}
+
+.login {
+  width: 100%;
+  height: 50px;
+  background-color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-top: 20px;
+}
+
+.login:hover {
+  background-color: transparent;
+  border: 2px solid rgba(37, 37, 70, 0.25);
+  color: #fff;
+  transition: 0.5s;
+}
