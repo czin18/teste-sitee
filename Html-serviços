@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serviços</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <section class="servicos">
+    <h2>Nossos Serviços</h2>
+    <div class="container-servicos">
+      <div class="servico">
+        <img src="icone-web.png" alt="Desenvolvimento Web">
+        <h3>Desenvolvimento Web</h3>
+        <p>Criação de sites modernos, responsivos e otimizados.</p>
+      </div>
+      <div class="servico">
+        <img src="icone-design.png" alt="Design Gráfico">
+        <h3>Design Gráfico</h3>
+        <p>Identidade visual, logotipos, banners e muito mais.</p>
+      </div>
+      <div class="servico">
+        <img src="icone-seo.png" alt="SEO">
+        <h3>Otimização SEO</h3>
+        <p>Melhore o ranqueamento do seu site nos buscadores.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
